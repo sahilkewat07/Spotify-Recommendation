@@ -1,0 +1,46 @@
+body{
+    background-color:rgb(166, 203, 213);
+    height:100vh;
+}
+
+
+h2{
+
+    text-align: center;
+    height:30px;
+    width:450px;
+    border:10px solid balck;
+    border-radius: 10px;
+    color:green;
+    background-color: rgb(44, 41, 41);
+    box-shadow: 3px 3px 4px 4px black;
+
+}
+div{
+    display: flex;
+    text-align: center;
+    height:160px;
+    width:450px;
+    border: 5px solid black;
+    background: black;
+    box-shadow: 3px 3px 5px 5px black;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+li{
+    color:rgb(230, 119, 138);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    padding:20px 20px;   
+    height:15px;
+    width:15px;
+    color:rgb(227, 47, 255);
+}

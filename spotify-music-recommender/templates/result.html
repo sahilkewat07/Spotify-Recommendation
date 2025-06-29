@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recommendations</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style2.css') }}">
+</head>
+<body>
+   
+    <h2>Recommendations for "{{ song }}"</h2>
+    <div>
+    <ul>
+        {% for _, row in results.iterrows() %}
+        <li>{{ row['track_name'] }} by {{ row['artist_name'] }} ({{ row['genre'] }})</li>
+        {% endfor %}
+    </ul>
+    </div>
+    <a href="/">Try another song</a>
+  
+</body>
+</html>

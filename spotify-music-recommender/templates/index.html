@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Spotify Recommender</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <h2>Enter a Song Name</h2>
+    <form method="POST">
+      <input type="text" name="song" placeholder="e.g. Shape of You" required />
+      <button type="submit">Get Recommendations</button>
+    </form>
+  </body>
+</html>
